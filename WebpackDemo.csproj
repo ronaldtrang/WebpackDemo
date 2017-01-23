@@ -94,13 +94,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\app.css" />
+    <Content Include="css\bootstrap.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
-    <Content Include="js\app.es6" />
-    <Content Include="js\login.es6" />
+    <Content Include="js\app.js" />
     <Content Include=".babelrc" />
     <Content Include=".jshintrc" />
     <None Include="Web.Debug.config">
@@ -111,12 +112,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="js\about_page.js" />
-    <Content Include="js\contact_page.js" />
-    <Content Include="js\home_page.js" />
-    <Content Include="js\utils.js" />
-    <Content Include="public\about.html" />
-    <Content Include="public\contact.html" />
     <Content Include="public\index.html" />
     <Content Include="Web.config" />
     <Content Include="webpack-production.config.js" />
