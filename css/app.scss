@@ -1,0 +1,21 @@
+﻿body {
+    padding-top: 80px;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #007C0C 0, #000C0C 100%);
+}
+
+$blue:after #5b83ad;
+
+h1 {
+    padding: 15px;
+    border: 1px solid $blue;
+
+    background: linear-gradient(to top, black, white);
+    display: flex;
+    transition: transform 1s;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
