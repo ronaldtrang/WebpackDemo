@@ -103,6 +103,7 @@
     <Content Include="js\login.es6" />
     <Content Include=".babelrc" />
     <Content Include=".jshintrc" />
+    <Content Include="js\test.template.ejs" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
